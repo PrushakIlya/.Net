@@ -18,8 +18,7 @@ var characters = new Dictionary<string, Dictionary<string, float>>()
     { "Template", new Dictionary<string, float> { { "health", 100 }, { "armor", 100 }, { "damage", damage } } },
 };
 
-Console.WriteLine($"Welcome to my game by named: {gameName}");
-Console.WriteLine("Characters:");
+Console.WriteLine($"Welcome to my game by named: {gameName}\nCharacters:");
 
 foreach (var character in characters)
 {
